@@ -15,6 +15,14 @@ INSERT INTO pedidos (usuario_id, data_pedido, valor_total) VALUES
 (1, '2023-08-01', 3650.00),
 (2, '2023-08-05', 230.00);
 
+-- Novo registro em pedidos
+INSERT INTO pedidos (usuario_id, data_pedido, valor_total) VALUES
+(1, '2023-10-09', 2000.00);
+
+-- Novo registro em pedidos
+INSERT INTO pedidos (usuario_id, data_pedido, valor_total) VALUES
+(3, '2023-11-15', 1500.00);
+
 -- Inserir itens do pedido
 INSERT INTO itens_pedido (pedido_id, produto_id, quantidade, preco_unitario) VALUES
 (1, 1, 1, 3500.00),
